@@ -3,31 +3,6 @@
   color: #555;
   font-size: 13.5px;
 }
-@font-face {
-  font-family: Kaushan Script;
-  src: url(../fonts/Kaushan-Script.woff2);
-  font-weight: bold;
-}
-@font-face {
-  font-family: Libre Baskerville;
-  src: url(../fonts/Libre-Baskerville.woff2);
-  font-weight: bold;
-}
-@font-face {
-  font-family: Varela Round;
-  src: url(../fonts/Varela-Round.woff2);
-  font-weight: bold;
-}
-@font-face {
-  font-family: theme;
-  src: url(../fonts/theme-icons.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: theme;
-  src: url(../fonts/IcoMoon-Free.ttf);
-  font-weight: bold;
-}
 .type-631 .header-top {
   position: absolute;
   width: 100%;
@@ -38,12 +13,18 @@
 }
 .type-631 .header-top .navi-logo {
   width: 25%;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 .type-631 .header-top .navi-logo a {
   text-decoration: none;
   font-size: 25px;
   color: black;
+}
+.type-631 .header-top .navi-logo a:hover {
+  color: red;
+}
+.type-631 .header-top .type-631 .header-top .navi-logo {
+  color: red;
 }
 .type-631 .header-top .navi-menus {
   width: 115%;
@@ -51,7 +32,7 @@
 }
 .type-631 .header-top .navi-menus > ul {
   list-style: none;
-  padding: 0;
+  padding-left: 365px;
 }
 .type-631 .header-top .navi-menus > ul > li {
   text-align: center;
@@ -153,10 +134,6 @@
 .type-631 .header-top .navi-cart .search .icon-search:hover {
   color: #cb7152;
 }
-.type-631 .header-top .navi-cart .search .show-search-panel {
-  transform: translateX(0) !important;
-  opacity: 1 !important;
-}
 .type-631 .header-top .navi-cart .search .search-panel {
   transform: translateX(-30px);
   opacity: 0;
@@ -170,13 +147,6 @@
   padding: 9px 22px 9px 12px;
   border-radius: 3px;
   font-size: 13px;
-}
-.type-631 .header-top .navi-cart .search .search-panel .menu-search-btn {
-  background: transparent;
-  border: none;
-  position: absolute;
-  top: 7px;
-  right: 1px;
 }
 .type-631 .header-top .navi-cart #icon-responsive {
   display: none;
@@ -199,13 +169,7 @@
   font-weight: 400;
   color: black;
   margin: 0px;
-}
-.type-631 .header-banner .banner-text .linedown {
-  display: block;
-  width: 100px;
-  height: 3px;
-  border-radius: 30px;
-  background: #cb7152;
+  padding-top: 81px;
 }
 .type-631 .header-banner .banner-text hr {
   border: 1.5px solid #cb7152;
@@ -219,51 +183,51 @@
   font-size: 16px;
 }
 @media (max-width: 480px) {
-  .type-1277 header .header-top {
+  .type-631 header .header-top {
     display: flex;
     z-index: 111;
     padding: 0 10px !important;
     position: absolute;
   }
-  .type-1277 header .header-top .navi-cart .search .search-panel .menu-search-text {
+  .type-631 header .header-top .navi-cart .search .search-panel .menu-search-text {
     padding: 9px 13px 9px 6px !important;
   }
-  .type-1277 .header-top .navi-cart .search .search-panel {
+  .type-631 .header-top .navi-cart .search .search-panel {
     right: 16%;
     top: 100%;
   }
 }
 @media (max-width: 520px) {
-  .type-1277 .navi-cart #icon-responsive i {
+  .type-631 .navi-cart #icon-responsive i {
     font-size: 28px !important;
   }
-  .type-1277 .shop-cart a {
+  .type-631 .shop-cart a {
     font-size: 25px !important;
     line-height: inherit;
   }
-  .type-1277 .shop-cart > span {
+  .type-631 .shop-cart > span {
     font-size: 8px !important;
   }
-  .type-1277 .search .icon-search {
+  .type-631 .search .icon-search {
     font-size: 19px !important;
   }
-  .type-1277 .banner-text h1 {
+  .type-631 .banner-text h1 {
     font-size: 72px !important;
     line-height: 63px !important;
   }
 }
 @media (max-width: 992px) {
-  .type-1277 header .header-top .navi-cart .shop-cart a {
+  .type-631  header .header-top .navi-cart .shop-cart a {
     font-size: 20px !important;
     line-height: inherit;
   }
-  .type-1277 .header-top .navi-menus > ul > li:hover > ul {
+  .type-631  .header-top .navi-menus > ul > li:hover > ul {
     width: 100%;
   }
-  .type-1277 header .header-top .navi-cart #icon-responsive i {
+  .type-631 header .header-top .navi-cart #icon-responsive i {
     font-size: 20px !important;
   }
-  .type-1277 header .header-top .navi-cart .search .icon-search {
+  .type-631  header .header-top .navi-cart .search .icon-search {
     font-size: 19px;
   }
   #icon-responsive {
@@ -283,7 +247,7 @@
   .navi-cart {
     width: 75%;
   }
-  .type-1277 header .header-top .navi-menus > ul > li {
+  .type-631 header .header-top .navi-menus > ul > li {
     cursor: pointer;
     text-align: center !important;
     border-top: 1px solid rgba(0,0,0,0.05);

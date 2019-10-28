@@ -14,13 +14,13 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/25-39.less', 'css/25-39.css');
+    $less->compileFile('less/1160.less', 'css/25-39.css');
     
 ?>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title></title>
+        <title>1160</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -33,12 +33,12 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/25-39.less', 'css/25-39.css');
+        $less->compileFile('less/1160.less', 'css/25-39.css');
         ?>
         
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/close-element-8.js" type="text/javascript"></script>
+        <script src="js/jquery.min.js" ></script>
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/close-element-8.js" ></script>
              
         
         <style>
@@ -52,8 +52,8 @@
         </style>
     </head>
     
-    <body>
+  
         <?php  $dir_block.include'1160-content.php'; ?>
-    </body>
+  
 
 </html>

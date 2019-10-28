@@ -30,6 +30,8 @@
         <link href="<?php echo $url_path ?>/css/1162.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/close-element-10.js" ></script>
+
        
     </head>
 

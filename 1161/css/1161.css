@@ -1,3 +1,7 @@
+.container-chinhsu {
+  text-align: center;
+  margin: 400px;
+}
 .type-1161 .content9 {
   position: relative;
   margin: auto;
@@ -23,7 +27,7 @@
   margin-bottom: 15px;
 }
 .type-1161 .content9 .x_title .navbar-right {
-  margin-right: 0px;
+  padding-right: 0px;
 }
 .type-1161 .content9 h2 {
   margin: 5px 0 6px;

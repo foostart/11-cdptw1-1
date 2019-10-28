@@ -10,9 +10,16 @@
 ?>
 
 
-<div class="type-25-39">
+<div class="type-1160 ">
             <div class="container">
+                 <div class="container-chinhsu">
+    <button type="button"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+</div>
                 <div class="row">
+                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"   aria-hidden="true">
+        <div class="row">
                     <div class="col-md-2">
                     </div>
                     <div class="col-md-10">
@@ -22,7 +29,7 @@
                                     <div class="x_title">
                                         <h2>Daily active users <small>Sessions</small></h2>
                                         <ul class="nav navbar-right panel_toolbox">
-                                            <li><a data-toggle="collapse"href="#element8"><i class="fa fa-chevron-up"></i></a>
+                                            <li><a data-toggle="collapse" href="#element8"><i class="fa fa-chevron-up"></i></a>
                                             </li>
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>

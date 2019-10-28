@@ -9,8 +9,18 @@
    $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-1162">
+
+<!-- Modal -->
+
+  <div class="type-1162">
     <div class="container-fluid">
+        <div  style="text-align: center;">
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+        </div>
+       
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"  aria-hidden="true">
         <div class="row">
             <div class="col-md-7 col-sm-7 col-xs-12">
             </div>
@@ -19,7 +29,7 @@
                     <div class="x_title">
                         <h2><i class="fa fa-chevron-down"></i> Dropdowns <small>Multiple dropdown designs</small></h2>
                         <ul class="nav navbar-right panel_toolbox">
-                            <li><a data-toggle="collapse"href="#element10"><i class="fa fa-chevron-up"></i></a>
+                            <li><a data-toggle="collapse" href="#element10"><i class="fa fa-chevron-up"></i></a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench"></i></a>
@@ -85,4 +95,6 @@
             </div>
         </div>
     </div>
+</div>
+
 </div>
