@@ -51,6 +51,9 @@
 .type-1162 button.btn.btn-primary {
   margin-top: 290px;
 }
+.type-1162 button.close {
+  margin: 4px;
+}
 @media (max-width: 1200px) {
   small {
     display: none;

@@ -1,13 +1,14 @@
-@media only screen and (max-width: 768px) {
-    }
+
 @color: #fff;
-.container-chinhsu
+@hover: #967936;
+
+.type-1160{
+   
+    .container-chinhsu
 {
     text-align:center;
     
 }
-.type-1160{
-   
     .content8{
         color: #73879C;
         font-size:13px;
@@ -122,11 +123,11 @@
 
             }
             .byline a:hover{
-                color: #967936;
+                color: @hover;
             }
            
             p a:hover{
-                color: #967936;
+                color: @hover;
             }
         }
         .list-unstyled{
@@ -152,8 +153,11 @@
        
 
     }
+    button.btn.btn-primary {
+        margin-top: 290px;
+    }
+    button.close {
+        margin: 4px;
+    }
 
-}
-button.btn.btn-primary {
-    margin-top: 290px;
 }

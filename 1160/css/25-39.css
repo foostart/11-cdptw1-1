@@ -1,4 +1,4 @@
-.container-chinhsu {
+.type-1160 .container-chinhsu {
   text-align: center;
 }
 .type-1160 .content8 {
@@ -134,6 +134,9 @@
   font-style: italic;
   padding: 5px 0;
 }
-button.btn.btn-primary {
+.type-1160 button.btn.btn-primary {
   margin-top: 290px;
+}
+.type-1160 button.close {
+  margin: 4px;
 }

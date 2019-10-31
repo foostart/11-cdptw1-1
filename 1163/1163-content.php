@@ -12,7 +12,7 @@
     <div class="container-fluid">
         <div  style="text-align: center;">
              <button type="button" class="btn btn-primary1" data-toggle="modal" data-target="#exampleModal" >
-  Launch demo modal
+  Launch module 1163
 </button>
         </div>
         
@@ -37,16 +37,18 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a><button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button></a>
+                            
+                            <li><i class="" ><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                                                </button></i> 
                                             </li>   
                         </ul>
                         <div class="clearfix"></div>
                     </div>
                     <div id="element11" class="panel-collapse in">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" >Large modal</button>
-                        <div class="modal fade">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Large modal</button>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -67,8 +69,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary" data-toggle="modal">Small modal</button>
-                        <div class="modal fade">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Small modal</button>
+                        <div class="modal fade" id="myModal1" role="dialog">
                             <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -85,16 +87,19 @@
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                         <button type="button" class="btn btn-primary">Save changes</button>
                                     </div>
-
+                                    </div>
                                 </div>
                             </div>
+                            
                         </div>
+                        
                         <!-- /modals -->
                     </div>
+                    
                 </div>
             </div>
         </div>
-    </div>
+    
 </div>
 
 </div>

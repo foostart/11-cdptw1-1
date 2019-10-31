@@ -40,9 +40,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <li><button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button></a>
+        </button>
                                             </li>
                         </ul>
                         <div class="clearfix"></div>

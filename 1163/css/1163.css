@@ -35,11 +35,11 @@
 .type-1163 .content11 .navbar-right {
   float: right;
 }
-.type-1163 .content11 .panel_toolbox li {
-  float: right;
+.type-1163 .content11 .panel_toolbox>li {
+  float: left;
   cursor: pointer;
 }
-.type-1163 .content11 .panel_toolbox li a {
+.type-1163 .content11 .panel_toolbox>li>a {
   padding: 5px;
   color: #C5C7CB;
   font-size: 14px;
@@ -48,4 +48,7 @@
   margin-top: 290px;
   color: #fff;
   background: #337ab7;
+}
+.type-1163 button.close {
+  margin: 4px;
 }

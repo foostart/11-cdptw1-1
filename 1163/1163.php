@@ -29,7 +29,6 @@
         <link href="<?php echo $url_path ?>/css/1163.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
-        <script src="<?php echo $url_path ?>/js/close-element-11.js" ></script>
     </head>
     <body>
        <?php include $dir_block.'/1163-content.php'; ?>
