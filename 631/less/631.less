@@ -33,7 +33,7 @@
             width: 115%;
             font-size: 10px;
             > ul {
-                list-style: none;
+                
                 padding-left: 365px;
                 > li {
                     text-align: center;
@@ -141,7 +141,10 @@
             .icon-search:hover{
                 color:#cb7152 ;
             }
-            
+             .show-search-panel {
+                transform: translateX(0) !important;
+                opacity: 1 !important;
+            }
             .search-panel {
                 transform: translateX(-30px);
                 opacity: 0;
@@ -159,7 +162,7 @@
             }
         }
         #icon-responsive {
-            display: none;
+            display: block;
             padding: 20px 10px;
             i {
                 font-size: 22px;
@@ -202,42 +205,19 @@
 }
 }
 
-@media (max-width: 480px) {
-    .type-631 header .header-top {
-        display: flex;
-        z-index: 111;
-        padding: 0 10px !important;
-        position: absolute;
-    }
-    .type-631 header .header-top .navi-cart .search .search-panel .menu-search-text {
-        padding: 9px 13px 9px 6px !important;
-    }
-    .type-631 .header-top .navi-cart .search .search-panel{
-        right: 16%;
-        top: 100%
-    }
+
+@media (max-width: 1499px) {
+    .type-631 .header-top .navi-menus > ul {
+       
+        padding-left:0px;
+        }
+        .navi-menus > ul {
+            
+            display: block;
+        
+     }
 }
-@media (max-width: 520px){
-    .type-631{
-        .navi-cart #icon-responsive i {
-            font-size: 28px !important;
-        }
-        .shop-cart a{
-            font-size: 25px !important;
-            line-height: inherit;
-        }
-        .shop-cart > span{
-            font-size: 8px !important;
-        }
-        .search .icon-search{
-            font-size: 19px !important;
-        }
-        .banner-text h1{
-            font-size: 72px !important;
-            line-height: 63px !important;
-        }
-    }
-}
+
 
 
 @media (max-width: 992px) {
@@ -282,22 +262,12 @@
         color: #555 !important;
         font-size: 20px !important;
     }
-    .navi-menus > ul > li{
-          text-align: center;
-    }
+   
     .navi-menus > ul > li > ul {
-        display: none;
         background: #cb7152;
         transform: translateY(0px) !important;
         position: static !important;
       
     }
-    .navi-menus > ul > li > ul li {
-        padding: 15px 2px;
-       
-    }
-    .shop-cart {
-        padding: 12px 10px !important;
-    }
-
+    
 }

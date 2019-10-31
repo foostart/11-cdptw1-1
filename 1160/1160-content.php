@@ -40,7 +40,9 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a id="close-link8"><i class="fa fa-close"></i></a>
+                                            <li><a><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button></a>
                                             </li>
                                         </ul>
                                         <div class="clearfix"></div>
@@ -104,6 +106,7 @@
                                                         <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a href="">Read&nbsp;More  &#8594;</a>
                                                         </p>
                                                     </div>
+                                                   
                                                     <div class="circle"></div>
                                                 </div>
                                             </div>

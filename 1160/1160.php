@@ -45,7 +45,7 @@
             .container{
                 width: 90% ;
                 height: auto;
-                margin-left: 25px;
+                
             }
             
             

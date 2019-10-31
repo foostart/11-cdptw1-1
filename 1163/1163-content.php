@@ -11,7 +11,7 @@
   <div class="type-1163">
     <div class="container-fluid">
         <div  style="text-align: center;">
-             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+             <button type="button" class="btn btn-primary1" data-toggle="modal" data-target="#exampleModal" >
   Launch demo modal
 </button>
         </div>
@@ -37,8 +37,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a id="close-link11"><i class="fa fa-close"></i></a>
-                            </li>
+                            <li><a><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button></a>
+                                            </li>   
                         </ul>
                         <div class="clearfix"></div>
                     </div>

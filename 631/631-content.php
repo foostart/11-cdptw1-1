@@ -94,7 +94,14 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>
                     </div>
+                    
                     <div class="navi-cart">
+                    <div class="search">
+                            <i class="fa fa-search icon-search"></i>
+                            <form class="search-panel" method="post">
+                                <input type="search" class="menu-search-text" placeholder="Please input search...">
+                            </form>
+                        </div>
                         <div class="shop-cart">
                             <a href="#"><i class="fa fa-shopping-bag"></i></a>
                             <span>0</span>
@@ -102,12 +109,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span>No product.</span>
                             </div>
                         </div>
-                        <div class="search">
-                            <i class="fa fa-search icon-search"></i>
-                            <form class="search-panel" method="post">
-                                <input type="search" class="menu-search-text" placeholder="Please input search...">
-                            </form>
-                        </div>
+                        
                         <div id="icon-responsive">
                             <i class="fa fa-bars"></i>
                         </div>

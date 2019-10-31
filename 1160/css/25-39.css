@@ -1,6 +1,5 @@
 .container-chinhsu {
   text-align: center;
-  margin: 400px;
 }
 .type-1160 .content8 {
   color: #73879C;
@@ -135,8 +134,6 @@
   font-style: italic;
   padding: 5px 0;
 }
-@media (max-width: 1200px) {
-  small {
-    display: none;
-  }
+button.btn.btn-primary {
+  margin-top: 290px;
 }

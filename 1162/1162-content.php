@@ -40,8 +40,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a id="close-link10"><i class="fa fa-close"></i></a>
-                            </li>
+                            <li><a><button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button></a>
+                                            </li>
                         </ul>
                         <div class="clearfix"></div>
                     </div>

@@ -1,6 +1,3 @@
-.type-1163 {
-  margin: 400px;
-}
 .type-1163 .content11 {
   color: #73879C;
   font-size: 13px;
@@ -46,4 +43,9 @@
   padding: 5px;
   color: #C5C7CB;
   font-size: 14px;
+}
+.type-1163 .btn-primary1 {
+  margin-top: 290px;
+  color: #fff;
+  background: #337ab7;
 }

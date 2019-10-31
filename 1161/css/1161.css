@@ -1,6 +1,5 @@
 .container-chinhsu {
   text-align: center;
-  margin: 400px;
 }
 .type-1161 .content9 {
   position: relative;
@@ -71,4 +70,7 @@
   #element9 p {
     font-size: 18px;
   }
+}
+button.btn.btn-primary {
+  margin-top: 290px;
 }
